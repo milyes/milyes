@@ -50,7 +50,7 @@ update_app() {
     check_error "Le répertoire $APP_DIR n'existe pas"
 
     # Tirer les dernières modifications
-    git pull origin main
+    git pull origin master
     check_error "Échec de la mise à jour du dépôt"
 
     echo "Mise à jour terminée avec succès."
